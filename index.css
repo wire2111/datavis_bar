@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: teal;
+}
+
+rect:hover {
+  fill: #eee;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#wrap {
+  width: 1000px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  box-shadow: 2px 2px 20px;
+  padding: 2rem;
+  background-color: #eee;
+  align-items: center;
+}
+
+#tooltip {
+  height: 40px;
+  width: 200px;
+  visibility: visible;
+  position: absolute;
+  text-align: center;
+  color: black;
+  z-index: 10;
+  top: 170px;
+}
